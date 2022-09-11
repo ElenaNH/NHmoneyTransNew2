@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
     println("Hello!")
+    println("Hello once more!!")
 
     println("The transfer tax for ${transformBy100(15_500_00uL)} by default card is " + calcTax(transferMoneyCents = 15_500_00uL) + " cents")
     //
